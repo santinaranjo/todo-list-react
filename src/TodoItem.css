@@ -1,0 +1,40 @@
+.todo__item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+    font-size: 25px;
+}
+
+.icon__check {
+    padding-bottom: 2px;
+}
+
+.icon__delete {
+    padding-top: 2px;
+    margin-left: auto;
+    padding-left: 10px;
+    color: red;
+}
+
+.icon__checked {
+    display: none;
+}
+
+.icon__check--active {
+    display: none;
+}
+
+.icon__checked--active {
+    display: flex;
+    color: #00FF00;
+}

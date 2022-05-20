@@ -1,0 +1,15 @@
+.button__container {
+    display: flex;
+    justify-content: center;
+}
+
+.todo__button {
+    margin: 20px 0;
+    font-size: 50px;
+    background-color: #f2db0a;
+    color: #041b54;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: none;
+}
