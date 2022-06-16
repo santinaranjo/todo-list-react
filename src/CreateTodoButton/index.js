@@ -1,9 +1,9 @@
 import React from "react";
 import "./CreateTodoButton.css";
 
-function CreateTodoButton() {
-    const onClickButton = (msg) => {
-        alert(msg);
+function CreateTodoButton(props) {
+    const onClickButton = () => {
+            props.setOpenModal(prevState => !prevState);
     }
 
 
@@ -12,7 +12,7 @@ function CreateTodoButton() {
             <section className="button__container">
                 <button
                     className="todo__button"
-                    onClick={() => onClickButton("Aquí se abriría el modal")}
+                    onClick={onClickButton}
                 >
                     +
                 </button>
