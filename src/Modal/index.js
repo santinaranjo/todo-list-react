@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import { TodoContext } from "../TodoContext";
 import "./Modal.css";
 
-function Modal() {
+function Modal(props) {
     const { searchedTodos, setOpenModal } = React.useContext(TodoContext);
 
     const onClickClose = () => {
@@ -13,7 +13,7 @@ function Modal() {
     return ReactDOM.createPortal(
         <div className="ModalBackground">
             <span onClick={onClickClose}>✖</span>
-            <p>{searchedTodos[0]?.text}</p>
+            {props.children}
         </div>,
         document.getElementById("modal")
     );
