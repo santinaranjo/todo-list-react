@@ -12,3 +12,11 @@
     align-items: center;
     flex-direction: column;
 }
+
+.modal__closebutton {
+    display: flex;
+    justify-content: flex-end;
+    width: 300px;
+    font-size: 25px;
+    cursor: pointer;
+}

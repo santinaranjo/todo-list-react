@@ -4,7 +4,7 @@ import { TodoContext } from "../TodoContext";
 import "./Modal.css";
 
 function Modal(props) {
-    const { searchedTodos, setOpenModal } = React.useContext(TodoContext);
+    const { setOpenModal } = React.useContext(TodoContext);
 
     const onClickClose = () => {
         setOpenModal(prevState => !prevState);
@@ -12,7 +12,7 @@ function Modal(props) {
 
     return ReactDOM.createPortal(
         <div className="ModalBackground">
-            <span onClick={onClickClose}>✖</span>
+            <span className="modal__closebutton" onClick={onClickClose}>✖</span>
             {props.children}
         </div>,
         document.getElementById("modal")

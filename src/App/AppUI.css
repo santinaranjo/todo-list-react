@@ -1,0 +1,6 @@
+.loading__title, .loading-error__title, .add-todo__title {
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
