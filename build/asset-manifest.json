@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/todo-list-react/static/css/main.4522004d.css",
+    "main.js": "/todo-list-react/static/js/main.6d6d1e54.js",
+    "static/media/task-icon.png": "/todo-list-react/static/media/task-icon.5df51065a9d624458c31.png",
+    "index.html": "/todo-list-react/index.html",
+    "main.4522004d.css.map": "/todo-list-react/static/css/main.4522004d.css.map",
+    "main.6d6d1e54.js.map": "/todo-list-react/static/js/main.6d6d1e54.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4522004d.css",
+    "static/js/main.6d6d1e54.js"
+  ]
+}
